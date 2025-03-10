@@ -22,7 +22,7 @@ This section contains detailed analyses of cybersecurity incidents I have invest
 - Proposed solutions to restore DNS functionality.
 
 ### DDoS Attack Incident Analysis
-- Read the full report
+- Read the full report (https://github.com/abdarrives/Cybersecurity-Portfolio/blob/main/incident-reports/DDoS%20Attack%20Incident%20Analysis%20%E2%80%93%20Applying%20the%20NIST%20CSF.pdf) 
 - Analyzed a simulated DDoS attack using an ICMP flood scenario.
 - Identified firewall misconfigurations that allowed unrestricted ICMP traffic.
 - Researched and proposed firewall rule updates, intrusion detection measures, and recovery strategies following the NIST Cybersecurity Framework (CSF).
