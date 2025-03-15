@@ -30,10 +30,10 @@ To enhance network security and mitigate unauthorized ICMP traffic, I implemente
 * Monitored packets using Wireshark
 * Verified firewall logs for blocked attempts
 
-📸 Screenshots & Proof of Concept are attached
+##### 📸 Screenshots & Proof of Concept are attached
 
 
-##### 📝 Lessons Learned & Key Takeaways
+###### 📝 Lessons Learned & Key Takeaways
 🔍 Understanding Firewall Traffic Control
 Configuring outbound ICMP blocking can prevent information leaks via ping requests.
 Inbound blocking prevents attackers from using ping sweeps to map active hosts on a network.
