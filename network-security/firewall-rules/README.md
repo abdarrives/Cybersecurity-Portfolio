@@ -13,12 +13,12 @@ To enhance network security and mitigate unauthorized ICMP traffic, I implemente
 ✔ Capturing and analyzing network packets in Wireshark to verify the firewall behavior.
 
 #### 🛠 Firewall Rule Configuration
-🔹 ICMP Blocking Rule Details
-*Rule Name: Block ICMP to External Networks
-*Action: Block
-*Protocol: ICMPv4
-*Scope: Selected external IPs (e.g., Google Public DNS – 8.8.8.8)
-*Direction: Outbound (Prevent sending ICMP requests to blocked destinations)
+🔹 ICMP Blocking Rule Details:
+* Rule Name: Block ICMP to External Networks
+* Action: Block
+* Protocol: ICMPv4
+* Scope: Selected external IPs (e.g., Google Public DNS – 8.8.8.8)
+* Direction: Outbound (Prevent sending ICMP requests to blocked destinations)
 
 🔹 Steps Taken:
 * Navigated to Windows Firewall Advanced Security Panel
