@@ -3,7 +3,7 @@
 ## Overview
 Blocking ICMP traffic is an essential security measure to prevent unauthorized network reconnaissance. In this project, I implemented Windows Firewall rules to block ICMP requests to external IPs.
 
-🔐 Windows Firewall Security Rules – ICMP Blocking & Traffic Control
+### 🔐 Windows Firewall Security Rules – ICMP Blocking & Traffic Control
 📌 Overview
 ICMP (Internet Control Message Protocol) is a crucial network protocol used for diagnostics and troubleshooting. However, it can also be leveraged for network reconnaissance, ping sweeps, and denial-of-service (DoS) attacks.
 
@@ -12,28 +12,28 @@ To enhance network security and mitigate unauthorized ICMP traffic, I implemente
 ✔️ Testing rule effectiveness by attempting various ping and network connectivity scenarios.
 ✔️ Capturing and analyzing network packets in Wireshark to verify the firewall behavior.
 
-🛠 Firewall Rule Configuration
+#### 🛠 Firewall Rule Configuration
 🔹 ICMP Blocking Rule Details
 🔥 Rule Name: Block ICMP to External Networks
 🛡 Action: Block
 📡 Protocol: ICMPv4
 🎯 Scope: Selected external IPs (e.g., Google Public DNS – 8.8.8.8)
 📌 Direction: Outbound (Prevent sending ICMP requests to blocked destinations)
-🔹 Steps Taken
-Navigated to Windows Firewall Advanced Security Panel
-Created a New Outbound Rule
-Chose Custom Rule → Selected ICMPv4 as protocol
-Scoped it to Google’s DNS (8.8.8.8)
-Set Action to Block
-Applied & Tested the Rule
-Attempted to ping 8.8.8.8 (should be blocked)
-Monitored packets using Wireshark
-Verified firewall logs for blocked attempts
+🔹 Steps Taken:
+* Navigated to Windows Firewall Advanced Security Panel
+* Created a New Outbound Rule
+* Chose Custom Rule → Selected ICMPv4 as protocol
+* Scoped it to Google’s DNS (8.8.8.8)
+* Set Action to Block
+* Applied & Tested the Rule
+* Attempted to ping 8.8.8.8 (should be blocked)
+* Monitored packets using Wireshark
+* Verified firewall logs for blocked attempts
 
 📸 Screenshots & Proof of Concept are attached
 
 
-📝 Lessons Learned & Key Takeaways
+##### 📝 Lessons Learned & Key Takeaways
 🔍 Understanding Firewall Traffic Control
 
 Configuring outbound ICMP blocking can prevent information leaks via ping requests.
