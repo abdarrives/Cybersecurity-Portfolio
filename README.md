@@ -44,3 +44,11 @@ Comprehensive security audits where I **reviewed IT systems, identified vulnerab
 ✅ Security Tools: Wireshark, Nmap, Kali Linux  
 
 ---
+## 🛡️ Network Security Projects
+
+### 🔹 Blocking ICMP Requests Using Windows Firewall
+- **Objective:** Implemented Windows Firewall rules to block ICMP (ping) and DNS traffic.
+- **Why?** ICMP traffic can be used for **network reconnaissance**, making it a security risk.
+- **Tech Used:** Windows Defender Firewall, Wireshark, CMD, PowerShell
+- **Outcome:** Successfully blocked **ping requests to external IPs** while ensuring network stability.
+- 📂 **[See full documentation & screenshots](network-security/firewall-rules/README.md)**
