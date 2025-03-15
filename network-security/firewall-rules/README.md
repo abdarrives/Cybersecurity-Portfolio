@@ -10,12 +10,7 @@ Blocking ICMP traffic is an essential security measure to prevent unauthorized n
 - **Scope:** Google IPs (8.8.8.8)  
 
 ### **Screenshots**
-1. **Firewall Rule Setup**
-   - ![Firewall Rule](firewall_block_google.png)
-2. **Ping Test (Blocked)**
-   - ![Ping Failure](ping_test_blocked.png)
-3. **Firewall Rule Backup**
-   - ![Firewall Backup](firewall_backup.png)
+Screenshots are attached
 
 ## **Lessons Learned**
 - Configuring outbound rules in Windows Firewall to block network traffic.
