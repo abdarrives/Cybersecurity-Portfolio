@@ -8,17 +8,17 @@ Blocking ICMP traffic is an essential security measure to prevent unauthorized n
 ICMP (Internet Control Message Protocol) is a crucial network protocol used for diagnostics and troubleshooting. However, it can also be leveraged for network reconnaissance, ping sweeps, and denial-of-service (DoS) attacks.
 
 To enhance network security and mitigate unauthorized ICMP traffic, I implemented Windows Firewall security rules to block ICMP requests to specific external IPs. This hands-on project involved:
-✔️ Configuring custom firewall rules for inbound and outbound ICMP traffic.
-✔️ Testing rule effectiveness by attempting various ping and network connectivity scenarios.
-✔️ Capturing and analyzing network packets in Wireshark to verify the firewall behavior.
+✔ Configuring custom firewall rules for inbound and outbound ICMP traffic.
+✔ Testing rule effectiveness by attempting various ping and network connectivity scenarios.
+✔ Capturing and analyzing network packets in Wireshark to verify the firewall behavior.
 
 #### 🛠 Firewall Rule Configuration
 🔹 ICMP Blocking Rule Details
-🔥Rule Name: Block ICMP to External Networks
-🛡Action: Block
-📡Protocol: ICMPv4
-🎯Scope: Selected external IPs (e.g., Google Public DNS – 8.8.8.8)
-📌Direction: Outbound (Prevent sending ICMP requests to blocked destinations)
+*Rule Name: Block ICMP to External Networks
+*Action: Block
+*Protocol: ICMPv4
+*Scope: Selected external IPs (e.g., Google Public DNS – 8.8.8.8)
+*Direction: Outbound (Prevent sending ICMP requests to blocked destinations)
 
 🔹 Steps Taken:
 * Navigated to Windows Firewall Advanced Security Panel
