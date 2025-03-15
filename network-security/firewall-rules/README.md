@@ -35,18 +35,17 @@ To enhance network security and mitigate unauthorized ICMP traffic, I implemente
 
 ##### 📝 Lessons Learned & Key Takeaways
 🔍 Understanding Firewall Traffic Control
-
 Configuring outbound ICMP blocking can prevent information leaks via ping requests.
 Inbound blocking prevents attackers from using ping sweeps to map active hosts on a network.
-🛡 Firewall Rule Persistence
 
+🛡 Firewall Rule Persistence
 Rules must be saved and tested across system reboots to ensure they remain active.
 Backup firewall configurations to quickly restore security settings when needed.
-📊 Traffic Analysis with Wireshark
 
+📊 Traffic Analysis with Wireshark
 Live packet capture confirmed that outbound ICMP requests were blocked successfully.
 No response packets were received, validating that the firewall rule was applied correctly.
-⚠️ Understanding ICMP Blocking Side Effects
 
+⚠️ Understanding ICMP Blocking Side Effects
 Completely blocking ICMP can cause unintended connectivity issues (e.g., breaking traceroute).
 It's best to block selective ICMP types based on security needs rather than a full ICMP lockdown.
